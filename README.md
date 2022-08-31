@@ -5,7 +5,7 @@ My Tasks For RtosFwd
  ------------------------------------------------------------------------------------------------------------------------------
  ## Assignment 1 
   ### Intro To FreeRtos
-   #### TASK 1
+   ##### TASK 1
      -Write A program with one task to toggle a led every 1000ms
  ## Assignment 2 
   ### Interprocess communication   
