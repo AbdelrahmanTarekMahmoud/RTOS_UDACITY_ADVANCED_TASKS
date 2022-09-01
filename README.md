@@ -18,7 +18,23 @@ My Tasks For RtosFwd
       4 seconds will toggle Led with perdiodicity 100ms , press Shorter than 
       2 Seconds will turn the LED OFF.
  ## Assignment 2 
-  ### Interprocess communication   
+  ### Interprocess communication 
+  ##### TASK 1
+     -Use an Existing RTOS project to write Program with two Tasks , A Task to
+     read a button State and a Task to Turn an LED ON/OFF , The LED shall toggle
+     its state between ON/OFF with every press on the button , The action of toggling
+     the LED shall take place after user presses the button once and release it
+   ##### TASK 2
+     -Use an existing RTOS project to write a program with 2 tasks , both are responsible
+     for writting on UART any string 10 times each task cylce , The Task cycles are 
+     respectivly , 100ms , and 500ms , the task with cycle 500ms shall have an empty loop
+     that loops 100,000 times (to simulate heavy load) after every time a string is written
+     on UART , Each Task writing to UART shall not be interrupt by the other Task
+   ##### TASK 3
+     -Use an Existing RTOS project to write a program with 4 tasks , two tasks will 
+     detect rising and falling edge on two buttons , Every edge is an event that will be
+     sent to a consumer task to write on UART , A task will sent periodic string every 100ms
+     to consumer task to write on UART
  ## Assignment 3 
   ### Design a real time system
  ## Assignment 4 
