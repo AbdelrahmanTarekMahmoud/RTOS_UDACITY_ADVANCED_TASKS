@@ -38,10 +38,11 @@ My Tasks For RtosFwd
  ## Assignment 3 
   ### Design a real time system
    ##### TASK : Design a HealthCare System Using RTOS with the following requirements :
-   ##### 1 :
-   ##### 2 :
-   ##### 3 :
-   ##### 4 :
-   ##### 5 :
+   ##### 1 : A touch LCD as input that can control the system and give commands , Every LCD command is represented in 4 bytes 
+   ##### , LCD is connected to the micro-controller through UART with speed 9600bps [bit per second] (Reading 4 bytes and takes 2ms)
+   ##### 2 : Blood Pressure Sensor with new Data every 25ms ( takes 3ms)
+   ##### 3 : Heart Beat detector with new Data every 100ms (takes 1.5ms)
+   ##### 4 : Temperature Sensor with new data every 10ms (takes 2.5ms)
+   ##### 5 : Alert Siren ( takes 1 ms)
  ## Assignment 4 
   ### Scheduling and Types of schedulers
