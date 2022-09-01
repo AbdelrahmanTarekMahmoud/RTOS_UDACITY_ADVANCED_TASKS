@@ -37,7 +37,8 @@ My Tasks For RtosFwd
      to consumer task to write on UART
  ## Assignment 3 
   ### Design a real time system
-   ##### TASK : Design a HealthCare System Using RTOS with the following requirements :
+   ##### TASK
+   ##### -Design a HealthCare System Using RTOS with the following requirements :
    ##### 1 : A touch LCD as input that can control the system and give commands , Every LCD command is represented in 4 bytes 
    ##### , LCD is connected to the micro-controller through UART with speed 9600bps [bit per second] (Reading 4 bytes and takes 2ms)
    ##### 2 : Blood Pressure Sensor with new Data every 25ms ( takes 3ms)
